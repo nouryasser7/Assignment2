@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #FFB6C1;
+}
+#header-nav{
+	background-color: #FFF;
+	border-radius: 0;
+	border: 0;
+	color: #1BA8BC;
+}
+.text-center, h2{
+	color: #0E7685;
+	font-weight: bold;
+	margin: 20px;
+}
+#box{
+	background-color: #CBDCDF;
+	padding: 20px;
+	margin: 20px 50px 50px 50px;
+}
+p{
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #3B3D3E;
+}
+
