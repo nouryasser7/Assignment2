@@ -10,7 +10,7 @@ body{
 	border: 0;
 	color: #1BA8BC;
 }
-.text-center, h2{
+.text-center{
 	color: #0E7685;
 	font-weight: bold;
 	margin: 20px;
@@ -19,11 +19,55 @@ body{
 	background-color: #CBDCDF;
 	padding: 20px;
 	margin: 20px 50px 50px 50px;
+	border: 3px;
+	border-color: gray;
 }
 p{
 	text-align: center;
 	font-size: 1.2em;
 	font-weight: bold;
 	color: #3B3D3E;
+}
+@media (min-width: 768px){
+	.navbar-toggle{
+		display: none;
+	}
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #1BA8BC;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+span.icon-bar{
+	padding: 1px;
+	margin: 2px;
+	background-color: #FFB6C1;
+}
+button{
+	transform: rotate(90deg);
+	height: 2.4em;
+	width: 2.2em;
+	background-color: #FFF;
+	border-color: #FFB6C1;
+
 }
 
